@@ -34,7 +34,6 @@ def main():
 
                 if line_count % 10 == 0:
                     print_stats(total_size, status_code_counts)
-                    print()
     except KeyboardInterrupt:
         print_stats(total_size, status_code_counts)
         sys.exit(0)
